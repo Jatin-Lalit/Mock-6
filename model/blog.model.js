@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 
 const BlogSchema = mongoose.Schema({
   userId: {
-    
+    type:String,
     ref: 'user', 
     required: true
   },
